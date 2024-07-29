@@ -12,7 +12,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/swiftly-solution/vip_modules/total" alt="Downloads"> 
   <img src="https://img.shields.io/github/contributors/swiftly-solution/vip_modules?color=dark-green" alt="Contributors">
   <img src="https://img.shields.io/github/issues/swiftly-solution/vip_modules" alt="Issues">
   <img src="https://img.shields.io/github/license/swiftly-solution/vip_modules" alt="License">
