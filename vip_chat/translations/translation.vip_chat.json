@@ -1,0 +1,18 @@
+{
+    "chattag": {
+        "en": "Prefix",
+        "ro": "Prefix"
+    },
+    "chattagcolor": {
+        "en": "Prefix Color",
+        "ro": "Culoare Prefix"
+    },
+    "chatnamecolor": {
+        "en": "Name Color",
+        "ro": "Culoare Nume"
+    },
+    "chattextcolor": {
+        "en": "Text Color",
+        "ro": "Culoare Text"
+    }
+}
