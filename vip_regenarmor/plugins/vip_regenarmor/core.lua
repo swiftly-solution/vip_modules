@@ -10,7 +10,7 @@ AddEventHandler("OnPlayerDeath", function(event)
                 if not attacker then return end
                 if attacker:IsFakeClient() then return end
 
-                if not attacker:CCSPlayerController():IsValid() then return end
+                if not attacker:CCSPlayerPawn():IsValid() then return end
                 local currentArmor = attacker:CCSPlayerPawn().ArmorValue
                 if currentArmor >= 100 then return end
 

@@ -8,7 +8,7 @@ AddEventHandler("OnPlayerSpawn", function(event)
                 if player:IsFakeClient() then return EventResult.Continue end
                 if not IsPistolRound() then
                     NextTick(function()
-                        if not player:CBaseEntity():IsValid() then return end
+                        if not player:CCSPlayerPawn():IsValid() then return end
                         player:CCSPlayerPawn().ArmorValue = armor
                         CCSPlayer_ItemServices(player:CBasePlayerPawn().ItemServices:ToPtr()).HasHelmet = true
                     end)
