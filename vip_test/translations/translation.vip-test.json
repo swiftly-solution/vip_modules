@@ -1,0 +1,14 @@
+{
+    "alreadyuse": {
+        "en": "You have already used VIP Test.",
+        "ro": "Deja ai folosit VIP Test."
+    },
+    "alreadyisvip": {
+        "en": "You are already a VIP User.",
+        "ro": "Deja ai VIP."
+    },
+    "receivedvip": {
+        "en": "You have received VIP for {HOURS}.",
+        "ro": "Ai primit VIP pentru {HOURS} ore."
+    }
+}
