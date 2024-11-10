@@ -10,7 +10,7 @@ AddEventHandler("OnPlayerSpawn", function(event)
                     NextTick(function()
                         if not player:CCSPlayerPawn():IsValid() then return end
                         player:CCSPlayerPawn().ArmorValue = armor
-                        CCSPlayer_ItemServices(player:CBasePlayerPawn().ItemServices:ToPtr()).HasHelmet = true
+                        --CCSPlayer_ItemServices(player:CBasePlayerPawn().ItemServices:ToPtr()).HasHelmet = true
                     end)
                 end
             end
